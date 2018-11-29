@@ -1,0 +1,28 @@
+{
+    "name": "oliver/weather",
+    "type": "library",
+    "description": "Weather module.",
+    "autoload": {
+        "psr-4": {
+            "Anax\\": "src/",
+            "Oliver\\": "src/"
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2",
+        "anax/commons": "^2.0.0@beta"
+    },
+    "require-dev": {
+        "phpmetrics/phpmetrics": "^2",
+        "phpunit/phpunit": "^7",
+        "anax/anax-lite": "^1.0.24"
+    },
+    "authors": [
+        {
+            "name": "Oliver",
+            "email": "oliver.johnsson@me.com"
+        }
+    ]
+}
