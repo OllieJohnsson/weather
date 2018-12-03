@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "63e5e6d9037a1a0d56539cfe9a7350ad",
+    "content-hash": "2a5dfbdea18d828433464d0850961f37",
     "packages": [
         {
             "name": "anax/commons",
@@ -53,6 +53,109 @@
                 "framework"
             ],
             "time": "2018-11-20T16:16:37+00:00"
+        },
+        {
+            "name": "anax/page",
+            "version": "v2.0.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/page.git",
+                "reference": "103ff5e9e317b841401e0f1dae3da681e33797fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/page/zipball/103ff5e9e317b841401e0f1dae3da681e33797fe",
+                "reference": "103ff5e9e317b841401e0f1dae3da681e33797fe",
+                "shasum": ""
+            },
+            "require": {
+                "anax/commons": "^2.0.0@alpha",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "anax/configure": "^2.0.0@alpha",
+                "anax/di": "^2.0.0@alpha",
+                "anax/request": "^2.0.0@alpha",
+                "anax/response": "^2.0.0@alpha",
+                "anax/view": "^2.0.0@alpha",
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se"
+                }
+            ],
+            "description": "Anax Page module, wrapper to ease create web pages.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2018-08-15T14:59:59+00:00"
+        },
+        {
+            "name": "anax/view",
+            "version": "v2.0.0-beta.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/view.git",
+                "reference": "4d76c23aa1c7ce138dada2853f1b1f704d196c05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/view/zipball/4d76c23aa1c7ce138dada2853f1b1f704d196c05",
+                "reference": "4d76c23aa1c7ce138dada2853f1b1f704d196c05",
+                "shasum": ""
+            },
+            "require": {
+                "anax/commons": "^2.0.0@alpha",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "anax/configure": "^2.0.0@alpha",
+                "anax/di": "^2.0.0@alpha",
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                },
+                "files": [
+                    "src/View/ViewHelperFunctions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se"
+                }
+            ],
+            "description": "Anax View module, collect and render views.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "anax",
+                "template"
+            ],
+            "time": "2018-11-05T14:11:53+00:00"
         }
     ],
     "packages-dev": [

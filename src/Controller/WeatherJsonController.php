@@ -6,7 +6,7 @@ use Anax\Commons\ContainerInjectableTrait;
 use Oliver\Weather\Weather;
 
 use Oliver\Weather\Exception\BadFormatException;
-use Oliver\Weather\Exception\InvalidLocationException;
+use Oliver\DarkSky\Exception\InvalidLocationException;
 use Oliver\Weather\Exception\NoHistoryException;
 
 /**

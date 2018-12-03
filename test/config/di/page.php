@@ -9,7 +9,7 @@ return [
         "page" => [
             "shared" => true,
             "callback" => function () {
-                $page = new \Anax\Page\Page();
+                $page = new Anax\Page\Page();
                 $page->setDI($this);
 
                 // Load the configuration files

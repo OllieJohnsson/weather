@@ -12,7 +12,9 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.2",
-        "anax/commons": "^2.0.0@beta"
+        "anax/commons": "^2.0.0@beta",
+        "anax/page": "^2.0.0",
+        "anax/view": "^2.0.0"
     },
     "require-dev": {
         "phpmetrics/phpmetrics": "^2",

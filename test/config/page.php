@@ -18,11 +18,11 @@ return [
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
-                "css/dbwebb-se_v2.min.css",
-                "css/custom-theme.min.css",
+                // "css/dbwebb-se_v2.min.css",
+                // "css/custom-theme.min.css",
             ],
             "javascripts" => [
-                "js/responsive-menu.js",
+                // "js/responsive-menu.js",
             ],
         ],
     ],
@@ -38,61 +38,61 @@ return [
         //         "siteLogoAlt"   => "Löv",
         //     ],
         // ],
-        [
-            "region" => "header-col-1",
-            "template" => "anax/v2/header/site_logo_text",
-            "data" => [
-                "homeLink"      => "",
-                "siteLogoText"  => "ramverk1",
-                // "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
-                // "siteLogoTextIconAlt" => "Löv-bild",
-            ],
-        ],
-        [
-            "region" => "header-col-2",
-            // "template" => "anax/v2/navbar/navbar_submenus",
-            "template" => "navbar/navbar_submenus",
-            "data" => [
-                "navbarConfig" => require __DIR__ . "/navbar/header.php",
-            ],
-        ],
-        [
-            "region" => "header-col-3",
-            "template" => "anax/v2/navbar/responsive_submenus",
-            "data" => [
-                "navbarConfig" => require __DIR__ . "/navbar/responsive.php",
-            ],
-        ],
-        [
-            "region" => "footer",
-            "template" => "anax/v2/columns/multiple_columns",
-            "data" => [
-                "class"  => "footer-column",
-                "columns" => [
-                    [
-                        "template" => "anax/v2/block/default",
-                        "contentRoute" => "block/footer-col-1",
-                    ],
-                    [
-                        "template" => "anax/v2/block/default",
-                        "contentRoute" => "block/footer-col-2",
-                    ],
-                    [
-                        "template" => "anax/v2/block/default",
-                        "contentRoute" => "block/footer-col-3",
-                    ]
-                ]
-            ],
-            "sort" => 1
-        ],
-        [
-            "region" => "footer",
-            "template" => "anax/v2/block/default",
-            "data" => [
-                "class"  => "site-footer",
-                "contentRoute" => "block/footer",
-            ],
-            "sort" => 2
-        ],
+        // [
+        //     "region" => "header-col-1",
+        //     "template" => "anax/v2/header/site_logo_text",
+        //     "data" => [
+        //         "homeLink"      => "",
+        //         "siteLogoText"  => "ramverk1",
+        //         // "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
+        //         // "siteLogoTextIconAlt" => "Löv-bild",
+        //     ],
+        // ],
+        // [
+        //     "region" => "header-col-2",
+        //     // "template" => "anax/v2/navbar/navbar_submenus",
+        //     "template" => "navbar/navbar_submenus",
+        //     "data" => [
+        //         "navbarConfig" => require __DIR__ . "/navbar/header.php",
+        //     ],
+        // ],
+        // [
+        //     "region" => "header-col-3",
+        //     "template" => "anax/v2/navbar/responsive_submenus",
+        //     "data" => [
+        //         "navbarConfig" => require __DIR__ . "/navbar/responsive.php",
+        //     ],
+        // ],
+    //     [
+    //         "region" => "footer",
+    //         "template" => "anax/v2/columns/multiple_columns",
+    //         "data" => [
+    //             "class"  => "footer-column",
+    //             "columns" => [
+    //                 [
+    //                     "template" => "anax/v2/block/default",
+    //                     "contentRoute" => "block/footer-col-1",
+    //                 ],
+    //                 [
+    //                     "template" => "anax/v2/block/default",
+    //                     "contentRoute" => "block/footer-col-2",
+    //                 ],
+    //                 [
+    //                     "template" => "anax/v2/block/default",
+    //                     "contentRoute" => "block/footer-col-3",
+    //                 ]
+    //             ]
+    //         ],
+    //         "sort" => 1
+    //     ],
+    //     [
+    //         "region" => "footer",
+    //         "template" => "anax/v2/block/default",
+    //         "data" => [
+    //             "class"  => "site-footer",
+    //             "contentRoute" => "block/footer",
+    //         ],
+    //         "sort" => 2
+    //     ],
     ],
 ];
