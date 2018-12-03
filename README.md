@@ -31,10 +31,10 @@ rsync -av vendor/oliver/weather/config ./
 rsync -av vendor/oliver/weather/src ./
 ``` -->
 
-<!-- Copy the view files
+Copy the view files
 ```
 rsync -av vendor/oliver/weather/view ./
-``` -->
+```
 
 Copy the documentation
 ```
