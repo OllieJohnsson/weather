@@ -61,7 +61,7 @@ class DarkSky implements ContainerInjectableInterface, WeatherServiceInterface
             $daily["icon"] = $this->icons[$daily["icon"]];
         }
         $data = [];
-        foreach ($daily["data"] as $key => $day) {
+        foreach ($daily["data"] as $day) {
             $day["icon"] = $this->icons[$day["icon"]];
             $data[] = $day;
         }

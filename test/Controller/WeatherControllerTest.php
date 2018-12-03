@@ -70,7 +70,4 @@ class WeatherControllerTest extends TestCase
 
         $this->assertContains("fel formaterat", $res->getBody());
     }
-
-
-
 }

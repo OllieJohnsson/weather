@@ -11,7 +11,7 @@ class Weather
 {
     private $service;
 
-    function __construct(WeatherServiceInterface $service)
+    public function __construct(WeatherServiceInterface $service)
     {
         $this->service = $service;
     }

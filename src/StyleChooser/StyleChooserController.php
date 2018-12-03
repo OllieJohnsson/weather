@@ -65,7 +65,7 @@ class StyleChooserController implements ContainerInjectableInterface
             ];
         }
 
-        foreach ($this->styles as $key => $value) {
+        foreach ($this->styles as $key) {
             $isMinified = strstr($key, ".min.css", true);
             if ($isMinified) {
                 unset($this->styles["$isMinified.css"]);

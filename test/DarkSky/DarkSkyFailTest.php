@@ -28,5 +28,4 @@ class DarkSkyFailTest extends TestCase
         $result = ["error" => "something"];
         $darkSky->validateResult($result);
     }
-
 }

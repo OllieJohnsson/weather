@@ -36,7 +36,6 @@ class WeatherController implements ContainerInjectableInterface
     public function indexActionPost() : object
     {
         $request = $this->di->get("request");
-        $response = $this->di->get("response");
         $page = $this->di->get("page");
         $session = $this->di->get("session");
         $darkSky = $this->di->get("darkSky");

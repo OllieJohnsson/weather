@@ -11,23 +11,23 @@ class Curl implements CurlInterface
 
     public function fetchData(array $urls) : array
     {
-        $ch = [];
-        $mh = curl_multi_init();
+        $curlHandles = [];
+        $multiHandle = curl_multi_init();
 
         for ($i=0; $i < count($urls); $i++) {
-            $ch[$i] = curl_init($urls[$i]);
-            curl_setopt($ch[$i], CURLOPT_RETURNTRANSFER, true);
-            curl_multi_add_handle($mh, $ch[$i]);
+            $curlHandles[$i] = curl_init($urls[$i]);
+            curl_setopt($curlHandles[$i], CURLOPT_RETURNTRANSFER, true);
+            curl_multi_add_handle($multiHandle, $curlHandles[$i]);
         }
 
         $running = null;
         do {
-            curl_multi_exec($mh, $running);
+            curl_multi_exec($multiHandle, $running);
         } while ($running);
 
         $results = [];
-        for ($i=0; $i < count($ch); $i++) {
-            $results[] = (json_decode(curl_multi_getcontent($ch[$i]), true));
+        for ($i=0; $i < count($curlHandles); $i++) {
+            $results[] = (json_decode(curl_multi_getcontent($curlHandles[$i]), true));
         }
         return $results;
     }

@@ -6,7 +6,7 @@ namespace Oliver\Weather;
  */
 interface WeatherServiceInterface
 {
-    function configure(array $config);
-    function forecast(array $coordinates) : array;
-    function history(array $coordinates, int $daysBack) : array;
+    public function configure(array $config);
+    public function forecast(array $coordinates) : array;
+    public function history(array $coordinates, int $daysBack) : array;
 }
