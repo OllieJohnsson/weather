@@ -12,19 +12,6 @@ Table of content
 Install as Anax module
 ------------------------------------
 
-<!-- ### Copy the configuration files
-rsync -av vendor/oliver/weather/config ./
-
-### Copy the src files
-rsync -av vendor/oliver/weather/src ./
-
-### Copy the view files
-rsync -av vendor/oliver/weather/view ./
-
-### Copy the documentation
-rsync -av vendor/oliver/weather/content/000_documentation.md ./content/weather/ -->
-
-
 This is how you install the module into an existing Anax installation.
 
 Install using composer.
@@ -39,15 +26,15 @@ Copy the configuration files
 rsync -av vendor/oliver/weather/config ./
 ```
 
-Copy the src files
+<!-- Copy the src files
 ```
 rsync -av vendor/oliver/weather/src ./
-```
+``` -->
 
-Copy the view files
+<!-- Copy the view files
 ```
 rsync -av vendor/oliver/weather/view ./
-```
+``` -->
 
 Copy the documentation
 ```
@@ -56,6 +43,7 @@ rsync -av vendor/oliver/weather/content/000_documentation.md ./content/weather/
 
 
 Install using scaffold postprocessing file
+------------------------------------------
 
 The module supports a postprocessing installation script, to be used with Anax scaffolding. The script executes the default installation, as outlined above.
 
