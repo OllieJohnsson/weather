@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a5dfbdea18d828433464d0850961f37",
+    "content-hash": "5ab547ab3a2cf58aeaee8f68cf823d4d",
     "packages": [
         {
             "name": "anax/commons",
@@ -53,109 +53,6 @@
                 "framework"
             ],
             "time": "2018-11-20T16:16:37+00:00"
-        },
-        {
-            "name": "anax/page",
-            "version": "v2.0.0-beta.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/canax/page.git",
-                "reference": "103ff5e9e317b841401e0f1dae3da681e33797fe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/canax/page/zipball/103ff5e9e317b841401e0f1dae3da681e33797fe",
-                "reference": "103ff5e9e317b841401e0f1dae3da681e33797fe",
-                "shasum": ""
-            },
-            "require": {
-                "anax/commons": "^2.0.0@alpha",
-                "php": ">=7.2"
-            },
-            "require-dev": {
-                "anax/configure": "^2.0.0@alpha",
-                "anax/di": "^2.0.0@alpha",
-                "anax/request": "^2.0.0@alpha",
-                "anax/response": "^2.0.0@alpha",
-                "anax/view": "^2.0.0@alpha",
-                "phpunit/phpunit": "^7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Anax\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mikael Roos",
-                    "email": "mos@dbwebb.se"
-                }
-            ],
-            "description": "Anax Page module, wrapper to ease create web pages.",
-            "homepage": "https://dbwebb.se/anax",
-            "keywords": [
-                "boilerplate",
-                "education",
-                "framework",
-                "micro",
-                "mvc"
-            ],
-            "time": "2018-08-15T14:59:59+00:00"
-        },
-        {
-            "name": "anax/view",
-            "version": "v2.0.0-beta.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/canax/view.git",
-                "reference": "4d76c23aa1c7ce138dada2853f1b1f704d196c05"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/canax/view/zipball/4d76c23aa1c7ce138dada2853f1b1f704d196c05",
-                "reference": "4d76c23aa1c7ce138dada2853f1b1f704d196c05",
-                "shasum": ""
-            },
-            "require": {
-                "anax/commons": "^2.0.0@alpha",
-                "php": "^7.2"
-            },
-            "require-dev": {
-                "anax/configure": "^2.0.0@alpha",
-                "anax/di": "^2.0.0@alpha",
-                "phpunit/phpunit": "^7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Anax\\": "src/"
-                },
-                "files": [
-                    "src/View/ViewHelperFunctions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mikael Roos",
-                    "email": "mos@dbwebb.se"
-                }
-            ],
-            "description": "Anax View module, collect and render views.",
-            "homepage": "https://dbwebb.se/anax",
-            "keywords": [
-                "anax",
-                "template"
-            ],
-            "time": "2018-11-05T14:11:53+00:00"
         }
     ],
     "packages-dev": [
@@ -262,16 +159,16 @@
         },
         {
             "name": "anax/controller",
-            "version": "v2.0.0-beta.7",
+            "version": "v2.0.0-beta.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/controller.git",
-                "reference": "47f2a56deb3bba9648260e77f9e10c4c181412bc"
+                "reference": "d9176b86622bd6b92d181ed5d4f86fd4d80587f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/controller/zipball/47f2a56deb3bba9648260e77f9e10c4c181412bc",
-                "reference": "47f2a56deb3bba9648260e77f9e10c4c181412bc",
+                "url": "https://api.github.com/repos/canax/controller/zipball/d9176b86622bd6b92d181ed5d4f86fd4d80587f9",
+                "reference": "d9176b86622bd6b92d181ed5d4f86fd4d80587f9",
                 "shasum": ""
             },
             "require": {
@@ -310,7 +207,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2018-11-05T14:09:50+00:00"
+            "time": "2018-12-03T20:44:28+00:00"
         },
         {
             "name": "anax/di",
@@ -359,6 +256,59 @@
                 "mvc"
             ],
             "time": "2018-11-16T11:07:00+00:00"
+        },
+        {
+            "name": "anax/page",
+            "version": "v2.0.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/page.git",
+                "reference": "103ff5e9e317b841401e0f1dae3da681e33797fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/page/zipball/103ff5e9e317b841401e0f1dae3da681e33797fe",
+                "reference": "103ff5e9e317b841401e0f1dae3da681e33797fe",
+                "shasum": ""
+            },
+            "require": {
+                "anax/commons": "^2.0.0@alpha",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "anax/configure": "^2.0.0@alpha",
+                "anax/di": "^2.0.0@alpha",
+                "anax/request": "^2.0.0@alpha",
+                "anax/response": "^2.0.0@alpha",
+                "anax/view": "^2.0.0@alpha",
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se"
+                }
+            ],
+            "description": "Anax Page module, wrapper to ease create web pages.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2018-08-15T14:59:59+00:00"
         },
         {
             "name": "anax/request",
@@ -607,6 +557,56 @@
                 "mvc"
             ],
             "time": "2018-08-15T14:45:16+00:00"
+        },
+        {
+            "name": "anax/view",
+            "version": "v2.0.0-beta.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/view.git",
+                "reference": "8242e6be1465609b2f289225ff368d999933a900"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/view/zipball/8242e6be1465609b2f289225ff368d999933a900",
+                "reference": "8242e6be1465609b2f289225ff368d999933a900",
+                "shasum": ""
+            },
+            "require": {
+                "anax/commons": "^2.0.0@alpha",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "anax/configure": "^2.0.0@alpha",
+                "anax/di": "^2.0.0@alpha",
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                },
+                "files": [
+                    "src/View/ViewHelperFunctions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se"
+                }
+            ],
+            "description": "Anax View module, collect and render views.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "anax",
+                "template"
+            ],
+            "time": "2018-12-03T20:55:10+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -1394,16 +1394,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.4.4",
+            "version": "7.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b1be2c8530c4c29c3519a052c9fb6cee55053bbd"
+                "reference": "61d34e8dd6eb3555900f0f2a2fa9e7e570730102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b1be2c8530c4c29c3519a052c9fb6cee55053bbd",
-                "reference": "b1be2c8530c4c29c3519a052c9fb6cee55053bbd",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/61d34e8dd6eb3555900f0f2a2fa9e7e570730102",
+                "reference": "61d34e8dd6eb3555900f0f2a2fa9e7e570730102",
                 "shasum": ""
             },
             "require": {
@@ -1424,7 +1424,7 @@
                 "phpunit/php-timer": "^2.0",
                 "sebastian/comparator": "^3.0",
                 "sebastian/diff": "^3.0",
-                "sebastian/environment": "^3.1 || ^4.0",
+                "sebastian/environment": "^4.0",
                 "sebastian/exporter": "^3.1",
                 "sebastian/global-state": "^2.0",
                 "sebastian/object-enumerator": "^3.0.3",
@@ -1474,7 +1474,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-11-14T16:52:02+00:00"
+            "time": "2018-12-03T05:01:24+00:00"
         },
         {
             "name": "psr/container",

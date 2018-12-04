@@ -17,13 +17,13 @@ return [
             "favicon" => "favicon.ico",
             "htmlClass" => null,
             "lang" => "sv",
-            "stylesheets" => [
-                // "css/dbwebb-se_v2.min.css",
-                // "css/custom-theme.min.css",
-            ],
-            "javascripts" => [
-                // "js/responsive-menu.js",
-            ],
+            // "stylesheets" => [
+            //     // "css/dbwebb-se_v2.min.css",
+            //     // "css/custom-theme.min.css",
+            // ],
+            // "javascripts" => [
+            //     // "js/responsive-menu.js",
+            // ],
         ],
     ],
 
