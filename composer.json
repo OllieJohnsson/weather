@@ -4,6 +4,7 @@
     "description": "Weather module.",
     "autoload": {
         "psr-4": {
+            "Anax\\": "src/",
             "Oliver\\": "src/"
         }
     },
