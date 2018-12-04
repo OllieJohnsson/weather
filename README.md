@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/OllieJohnsson/weather.svg?branch=master)](https://travis-ci.org/OllieJohnsson/weather)
+
 Table of content
 ------------------------------------
 
