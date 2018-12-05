@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1543935226">
-  <project timestamp="1543935226">
+<coverage generated="1543996930">
+  <project timestamp="1543996930">
     <package name="Oliver\Controller">
       <file name="/Users/oliver/Documents/dbwebb-kurser/ramverk1/me/weather/src/Controller/WeatherController.php">
         <class name="Oliver\Controller\WeatherController" namespace="Oliver\Controller">

@@ -17,9 +17,9 @@
     "require-dev": {
         "phpmetrics/phpmetrics": "^2",
         "phpunit/phpunit": "^7",
-        "anax/anax-lite": "^1.0.24",
-        "anax/page": "^2.0.0",
-        "anax/view": "^2.0.0"
+        "anax/anax-lite": "^1.0.27",
+        "anax/page": "^2.0.0@beta",
+        "anax/view": "^2.0.0@beta"
     },
     "license": "MIT",
     "authors": [
