@@ -3,6 +3,8 @@ Weather
 
 [![Build Status](https://travis-ci.org/OllieJohnsson/weather.svg?branch=master)](https://travis-ci.org/OllieJohnsson/weather)
 
+[![CircleCI](https://circleci.com/gh/OllieJohnsson/weather.svg?style=svg)](https://circleci.com/gh/OllieJohnsson/weather)
+
 A service where you can search for past or future weather using coordinates.
 
 Table of content
