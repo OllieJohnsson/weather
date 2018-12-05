@@ -5,6 +5,12 @@ Weather
 
 [![CircleCI](https://circleci.com/gh/OllieJohnsson/weather.svg?style=svg)](https://circleci.com/gh/OllieJohnsson/weather)
 
+[![Build Status](https://scrutinizer-ci.com/g/OllieJohnsson/weather/badges/build.png?b=master)](https://scrutinizer-ci.com/g/OllieJohnsson/weather/build-status/master)
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OllieJohnsson/weather/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/OllieJohnsson/weather/?branch=master)
+
+[![Code Coverage](https://scrutinizer-ci.com/g/OllieJohnsson/weather/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/OllieJohnsson/weather/?branch=master)
+
 A service where you can search for past or future weather using coordinates.
 
 Table of content
