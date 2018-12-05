@@ -1,6 +1,10 @@
 Revision history
 =================================
 
+v1.0.8 (2018-12-05)
+---------------------------------
+* Removed some files and folders from repo.
+
 v1.0.7 (2018-12-05)
 ---------------------------------
 * Updated router and added badges.
