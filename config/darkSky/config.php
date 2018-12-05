@@ -4,5 +4,5 @@
  */
 return [
     "baseUrl" => "https://api.darksky.net/forecast",
-    "apiKey"  => "e1e441ef3770ee141fcc7fe5439efc9b"
+    "apiKey"  => "df69ab5286f7eab07b4ad0278df41622"
 ];

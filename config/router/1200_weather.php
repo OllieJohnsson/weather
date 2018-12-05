@@ -7,12 +7,12 @@ return [
         [
             "info" => "Väder",
             "path" => "",
-            "handler" => "\Oliver\Controller\WeatherController",
+            "handler" => ["\Oliver\Controller\WeatherController", "indexActionGet"],
         ],
         [
             "info" => "Väder rest API",
             "mount" => "api",
-            "handler" => "\Oliver\Controller\WeatherJsonController",
+            "handler" => ["\Oliver\Controller\WeatherJsonController", "indexActionGet"],
         ],
         [
             "info" => "Väder dokumentation",
