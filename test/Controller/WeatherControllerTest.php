@@ -68,6 +68,7 @@ class WeatherControllerTest extends TestCase
         $coordinates = $this->di->get("request")->getPost("coordinates");
         $option = $this->di->get("request")->getPost("option");
 
-        $this->assertContains("fel formaterat", $res->getBody());
+        $message = $this->di->get("session")->get("flashmessage");
+        $this->assertContains("fel formaterat", $message);
     }
 }
